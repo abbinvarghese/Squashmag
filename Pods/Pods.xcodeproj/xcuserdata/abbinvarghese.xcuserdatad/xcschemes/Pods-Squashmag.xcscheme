@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BDEEA67CC6769695DD517ACB38C6A5FF"
+               BlueprintIdentifier = "B93553389E3B98525F28730CF14F2D25"
                BuildableName = "Pods_Squashmag.framework"
                BlueprintName = "Pods-Squashmag"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BDEEA67CC6769695DD517ACB38C6A5FF"
+            BlueprintIdentifier = "B93553389E3B98525F28730CF14F2D25"
             BuildableName = "Pods_Squashmag.framework"
             BlueprintName = "Pods-Squashmag"
             ReferencedContainer = "container:Pods.xcodeproj">

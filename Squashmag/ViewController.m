@@ -11,6 +11,7 @@
 #import "CardView.h"
 #import "Popover-swift.h"
 #import "PopOverCell.h"
+#import "DetailWebViewController.h"
 
 typedef NS_ENUM(NSInteger, popOverIndex) {
     Share,
@@ -135,11 +136,13 @@ typedef NS_ENUM(NSInteger, popOverIndex) {
     });
 }
 
-- (void)cardContainerView:(YSLDraggableCardContainer *)cardContainerView didSelectAtIndex:(NSInteger)index draggableView:(UIView *)draggableView
-{
-    NSLog(@"++ index : %ld",(long)index);
+- (void)cardContainerView:(YSLDraggableCardContainer *)cardContainerView didSelectAtIndex:(NSInteger)index draggableView:(UIView *)draggableView{
     
+    DetailWebViewController *newView = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailWebViewController"];
+    [self.navigationController pushViewController:newView animated:YES];
 }
+
+
 - (IBAction)optionsClicked:(UIButton *)sender {
     CGPoint point = CGPointMake(sender.center.x+10, sender.center.y);
     UIView *aView = [[UIView alloc] initWithFrame: CGRectMake(0, 0, self.view.frame.size.width, 200)];

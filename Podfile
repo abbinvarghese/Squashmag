@@ -8,6 +8,7 @@ target 'Squashmag' do
   # Pods for Squashmag
 
 pod "Popover"
+pod 'DZNWebViewController'
 
   target 'SquashmagTests' do
     inherit! :search_paths

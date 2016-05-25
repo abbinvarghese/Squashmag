@@ -1,12 +1,15 @@
 PODS:
+  - DZNWebViewController (3.2)
   - Popover (0.9.0)
 
 DEPENDENCIES:
+  - DZNWebViewController
   - Popover
 
 SPEC CHECKSUMS:
+  DZNWebViewController: 8e927a5de637fe0c4104c001d5cccd4fa5621e50
   Popover: e5a2cbfa29bb982c95cff0d7eb94f47173dbfbcc
 
-PODFILE CHECKSUM: 0d417760dac59cd0687f892b1df21a9821b453f0
+PODFILE CHECKSUM: e4cd05ae4cc9a4f2a437c54d9b2f88ba5506f556
 
 COCOAPODS: 1.0.0

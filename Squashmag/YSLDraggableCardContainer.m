@@ -387,7 +387,7 @@ typedef NS_ENUM(NSInteger, MoveSlope) {
                 
                 float ratio_w = (gesture.view.center.x - _cardCenterX) / _cardCenterX;
                 float ratio_h = (gesture.view.center.y - _cardCenterY) / _cardCenterY;
-                
+                NSLog(@"%f",ratio_h);
                 YSLDraggableDirection direction = YSLDraggableDirectionDefault;
                 
                 if (fabs(ratio_h) > fabs(ratio_w)) {
@@ -438,8 +438,8 @@ typedef NS_ENUM(NSInteger, MoveSlope) {
     
     if (gesture.state == UIGestureRecognizerStateEnded ||
         gesture.state == UIGestureRecognizerStateCancelled) {
-        float ratio_w = (gesture.view.center.x - _cardCenterX) / _cardCenterX;
-        float ratio_h = (gesture.view.center.y - _cardCenterY) / _cardCenterY;
+        float ratio_w = (gesture.view.center.x - _cardCenterX) / _cardCenterX*3;
+        float ratio_h = (gesture.view.center.y - _cardCenterY) / _cardCenterY*3;
         
         YSLDraggableDirection direction = YSLDraggableDirectionDefault;
         if (fabs(ratio_h) > fabs(ratio_w)) {

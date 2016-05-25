@@ -10,6 +10,7 @@
 		05FF982592D67646FE48DEB7 /* Pods_Squashmag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5602C0CB22198E869092FA /* Pods_Squashmag.framework */; };
 		67D2123BAAEE6365329C0D0E /* Pods_SquashmagUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D530E0F7F16E3BED5CD4BE /* Pods_SquashmagUITests.framework */; };
 		7AB9203F621064806FDD1347 /* Pods_SquashmagTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B77C02CB1E92F3B1693DE31 /* Pods_SquashmagTests.framework */; };
+		ED2268D21CF61608007969DD /* DetailWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2268D11CF61608007969DD /* DetailWebViewController.m */; };
 		EDCEF4AF1CF1D4BB00DE6667 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCEF4AE1CF1D4BB00DE6667 /* main.m */; };
 		EDCEF4B21CF1D4BB00DE6667 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCEF4B11CF1D4BB00DE6667 /* AppDelegate.m */; };
 		EDCEF4B51CF1D4BB00DE6667 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCEF4B41CF1D4BB00DE6667 /* ViewController.m */; };
@@ -63,6 +64,8 @@
 		BF7A279D7D0F4938961FCCE1 /* Pods-SquashmagTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquashmagTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquashmagTests/Pods-SquashmagTests.release.xcconfig"; sourceTree = "<group>"; };
 		C0D530E0F7F16E3BED5CD4BE /* Pods_SquashmagUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquashmagUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E428B1D5F85D44CFD9E70A53 /* Pods-SquashmagUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquashmagUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SquashmagUITests/Pods-SquashmagUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED2268D01CF61608007969DD /* DetailWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailWebViewController.h; sourceTree = "<group>"; };
+		ED2268D11CF61608007969DD /* DetailWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailWebViewController.m; sourceTree = "<group>"; };
 		EDCEF4AA1CF1D4BB00DE6667 /* Squashmag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squashmag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCEF4AE1CF1D4BB00DE6667 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDCEF4B01CF1D4BB00DE6667 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -142,6 +145,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		ED2268D31CF6160B007969DD /* Detailed WebView */ = {
+			isa = PBXGroup;
+			children = (
+				ED2268D01CF61608007969DD /* DetailWebViewController.h */,
+				ED2268D11CF61608007969DD /* DetailWebViewController.m */,
+			);
+			name = "Detailed WebView";
+			sourceTree = "<group>";
+		};
 		EDCEF4A11CF1D4BB00DE6667 = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +179,7 @@
 		EDCEF4AC1CF1D4BB00DE6667 /* Squashmag */ = {
 			isa = PBXGroup;
 			children = (
+				ED2268D31CF6160B007969DD /* Detailed WebView */,
 				EDF237121CF5C9CD006019C1 /* PopOverCell */,
 				EDCEF4E31CF1D51B00DE6667 /* Card View */,
 				EDCEF4B01CF1D4BB00DE6667 /* AppDelegate.h */,
@@ -533,6 +546,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDCEF4EB1CF1D52600DE6667 /* YSLDraggableCardContainer.m in Sources */,
+				ED2268D21CF61608007969DD /* DetailWebViewController.m in Sources */,
 				EDCEF4EA1CF1D52600DE6667 /* YSLCardView.m in Sources */,
 				EDCEF4BB1CF1D4BB00DE6667 /* Squashmag.xcdatamodeld in Sources */,
 				EDF237251CF5E070006019C1 /* PopOverCell.m in Sources */,
