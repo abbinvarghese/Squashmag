@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05FF982592D67646FE48DEB7 /* Pods_Squashmag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5602C0CB22198E869092FA /* Pods_Squashmag.framework */; };
+		67D2123BAAEE6365329C0D0E /* Pods_SquashmagUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D530E0F7F16E3BED5CD4BE /* Pods_SquashmagUITests.framework */; };
+		7AB9203F621064806FDD1347 /* Pods_SquashmagTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B77C02CB1E92F3B1693DE31 /* Pods_SquashmagTests.framework */; };
 		EDCEF4AF1CF1D4BB00DE6667 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCEF4AE1CF1D4BB00DE6667 /* main.m */; };
 		EDCEF4B21CF1D4BB00DE6667 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCEF4B11CF1D4BB00DE6667 /* AppDelegate.m */; };
 		EDCEF4B51CF1D4BB00DE6667 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCEF4B41CF1D4BB00DE6667 /* ViewController.m */; };
@@ -16,6 +19,21 @@
 		EDCEF4C01CF1D4BB00DE6667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCEF4BE1CF1D4BB00DE6667 /* LaunchScreen.storyboard */; };
 		EDCEF4CB1CF1D4BB00DE6667 /* SquashmagTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCEF4CA1CF1D4BB00DE6667 /* SquashmagTests.m */; };
 		EDCEF4D61CF1D4BB00DE6667 /* SquashmagUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCEF4D51CF1D4BB00DE6667 /* SquashmagUITests.m */; };
+		EDCEF4EA1CF1D52600DE6667 /* YSLCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCEF4E51CF1D52600DE6667 /* YSLCardView.m */; };
+		EDCEF4EB1CF1D52600DE6667 /* YSLDraggableCardContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCEF4E71CF1D52600DE6667 /* YSLDraggableCardContainer.m */; };
+		EDCEF4EC1CF1D52600DE6667 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCEF4E91CF1D52600DE6667 /* CardView.m */; };
+		EDCEF4FD1CF1DC0600DE6667 /* photo_sample_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDCEF4FC1CF1DC0600DE6667 /* photo_sample_01.jpg */; };
+		EDCEF4FF1CF1DC2800DE6667 /* photo_sample_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDCEF4FE1CF1DC2800DE6667 /* photo_sample_02.jpg */; };
+		EDCEF5011CF1DC4300DE6667 /* photo_sample_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDCEF5001CF1DC4300DE6667 /* photo_sample_03.jpg */; };
+		EDCEF5031CF1DC5400DE6667 /* photo_sample_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDCEF5021CF1DC5400DE6667 /* photo_sample_04.jpg */; };
+		EDCEF5051CF1DC7200DE6667 /* photo_sample_05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDCEF5041CF1DC7200DE6667 /* photo_sample_05.jpg */; };
+		EDCEF5071CF1DC8800DE6667 /* photo_sample_06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDCEF5061CF1DC8800DE6667 /* photo_sample_06.jpg */; };
+		EDCEF5091CF1DC9F00DE6667 /* photo_sample_07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDCEF5081CF1DC9F00DE6667 /* photo_sample_07.jpg */; };
+		EDF237061CF59414006019C1 /* About.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF237051CF59414006019C1 /* About.png */; };
+		EDF237081CF5941C006019C1 /* delete_remove_back_backspace-512 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF237071CF5941C006019C1 /* delete_remove_back_backspace-512 copy.png */; };
+		EDF2370A1CF59423006019C1 /* blackBack.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF237091CF59423006019C1 /* blackBack.png */; };
+		EDF237251CF5E070006019C1 /* PopOverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF237231CF5E070006019C1 /* PopOverCell.m */; };
+		EDF237261CF5E070006019C1 /* PopOverCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF237241CF5E070006019C1 /* PopOverCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +54,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19CB2E4E2797390F559CF1AD /* Pods-SquashmagUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquashmagUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquashmagUITests/Pods-SquashmagUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1B77C02CB1E92F3B1693DE31 /* Pods_SquashmagTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquashmagTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		403066FC506AF51A45D4BDE4 /* Pods-Squashmag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Squashmag.release.xcconfig"; path = "Pods/Target Support Files/Pods-Squashmag/Pods-Squashmag.release.xcconfig"; sourceTree = "<group>"; };
+		43AA5A011E7B0F7BBC0A98A5 /* Pods-Squashmag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Squashmag.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Squashmag/Pods-Squashmag.debug.xcconfig"; sourceTree = "<group>"; };
+		8C647EF0A0B2B36360AED582 /* Pods-SquashmagTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquashmagTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SquashmagTests/Pods-SquashmagTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D5602C0CB22198E869092FA /* Pods_Squashmag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Squashmag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7A279D7D0F4938961FCCE1 /* Pods-SquashmagTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquashmagTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquashmagTests/Pods-SquashmagTests.release.xcconfig"; sourceTree = "<group>"; };
+		C0D530E0F7F16E3BED5CD4BE /* Pods_SquashmagUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquashmagUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E428B1D5F85D44CFD9E70A53 /* Pods-SquashmagUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquashmagUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SquashmagUITests/Pods-SquashmagUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EDCEF4AA1CF1D4BB00DE6667 /* Squashmag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squashmag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCEF4AE1CF1D4BB00DE6667 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDCEF4B01CF1D4BB00DE6667 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +80,25 @@
 		EDCEF4D11CF1D4BB00DE6667 /* SquashmagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquashmagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDCEF4D51CF1D4BB00DE6667 /* SquashmagUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquashmagUITests.m; sourceTree = "<group>"; };
 		EDCEF4D71CF1D4BB00DE6667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCEF4E41CF1D52600DE6667 /* YSLCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLCardView.h; sourceTree = "<group>"; };
+		EDCEF4E51CF1D52600DE6667 /* YSLCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLCardView.m; sourceTree = "<group>"; };
+		EDCEF4E61CF1D52600DE6667 /* YSLDraggableCardContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLDraggableCardContainer.h; sourceTree = "<group>"; };
+		EDCEF4E71CF1D52600DE6667 /* YSLDraggableCardContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLDraggableCardContainer.m; sourceTree = "<group>"; };
+		EDCEF4E81CF1D52600DE6667 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		EDCEF4E91CF1D52600DE6667 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		EDCEF4FC1CF1DC0600DE6667 /* photo_sample_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_sample_01.jpg; sourceTree = "<group>"; };
+		EDCEF4FE1CF1DC2800DE6667 /* photo_sample_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_sample_02.jpg; sourceTree = "<group>"; };
+		EDCEF5001CF1DC4300DE6667 /* photo_sample_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_sample_03.jpg; sourceTree = "<group>"; };
+		EDCEF5021CF1DC5400DE6667 /* photo_sample_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_sample_04.jpg; sourceTree = "<group>"; };
+		EDCEF5041CF1DC7200DE6667 /* photo_sample_05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_sample_05.jpg; sourceTree = "<group>"; };
+		EDCEF5061CF1DC8800DE6667 /* photo_sample_06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_sample_06.jpg; sourceTree = "<group>"; };
+		EDCEF5081CF1DC9F00DE6667 /* photo_sample_07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo_sample_07.jpg; sourceTree = "<group>"; };
+		EDF237051CF59414006019C1 /* About.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = About.png; sourceTree = "<group>"; };
+		EDF237071CF5941C006019C1 /* delete_remove_back_backspace-512 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete_remove_back_backspace-512 copy.png"; sourceTree = "<group>"; };
+		EDF237091CF59423006019C1 /* blackBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackBack.png; sourceTree = "<group>"; };
+		EDF237221CF5E070006019C1 /* PopOverCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopOverCell.h; sourceTree = "<group>"; };
+		EDF237231CF5E070006019C1 /* PopOverCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopOverCell.m; sourceTree = "<group>"; };
+		EDF237241CF5E070006019C1 /* PopOverCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopOverCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05FF982592D67646FE48DEB7 /* Pods_Squashmag.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AB9203F621064806FDD1347 /* Pods_SquashmagTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +122,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D2123BAAEE6365329C0D0E /* Pods_SquashmagUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2640700C078D8B11A83E7F82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43AA5A011E7B0F7BBC0A98A5 /* Pods-Squashmag.debug.xcconfig */,
+				403066FC506AF51A45D4BDE4 /* Pods-Squashmag.release.xcconfig */,
+				8C647EF0A0B2B36360AED582 /* Pods-SquashmagTests.debug.xcconfig */,
+				BF7A279D7D0F4938961FCCE1 /* Pods-SquashmagTests.release.xcconfig */,
+				E428B1D5F85D44CFD9E70A53 /* Pods-SquashmagUITests.debug.xcconfig */,
+				19CB2E4E2797390F559CF1AD /* Pods-SquashmagUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EDCEF4A11CF1D4BB00DE6667 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +149,8 @@
 				EDCEF4C91CF1D4BB00DE6667 /* SquashmagTests */,
 				EDCEF4D41CF1D4BB00DE6667 /* SquashmagUITests */,
 				EDCEF4AB1CF1D4BB00DE6667 /* Products */,
+				2640700C078D8B11A83E7F82 /* Pods */,
+				F4AC57F45BA9D45AEB447BF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +167,8 @@
 		EDCEF4AC1CF1D4BB00DE6667 /* Squashmag */ = {
 			isa = PBXGroup;
 			children = (
+				EDF237121CF5C9CD006019C1 /* PopOverCell */,
+				EDCEF4E31CF1D51B00DE6667 /* Card View */,
 				EDCEF4B01CF1D4BB00DE6667 /* AppDelegate.h */,
 				EDCEF4B11CF1D4BB00DE6667 /* AppDelegate.m */,
 				EDCEF4B31CF1D4BB00DE6667 /* ViewController.h */,
@@ -112,6 +178,7 @@
 				EDCEF4BE1CF1D4BB00DE6667 /* LaunchScreen.storyboard */,
 				EDCEF4C11CF1D4BB00DE6667 /* Info.plist */,
 				EDCEF4B91CF1D4BB00DE6667 /* Squashmag.xcdatamodeld */,
+				EDCEF4ED1CF1D57F00DE6667 /* Resources */,
 				EDCEF4AD1CF1D4BB00DE6667 /* Supporting Files */,
 			);
 			path = Squashmag;
@@ -143,6 +210,56 @@
 			path = SquashmagUITests;
 			sourceTree = "<group>";
 		};
+		EDCEF4E31CF1D51B00DE6667 /* Card View */ = {
+			isa = PBXGroup;
+			children = (
+				EDCEF4E41CF1D52600DE6667 /* YSLCardView.h */,
+				EDCEF4E51CF1D52600DE6667 /* YSLCardView.m */,
+				EDCEF4E61CF1D52600DE6667 /* YSLDraggableCardContainer.h */,
+				EDCEF4E71CF1D52600DE6667 /* YSLDraggableCardContainer.m */,
+				EDCEF4E81CF1D52600DE6667 /* CardView.h */,
+				EDCEF4E91CF1D52600DE6667 /* CardView.m */,
+			);
+			name = "Card View";
+			sourceTree = "<group>";
+		};
+		EDCEF4ED1CF1D57F00DE6667 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EDF237091CF59423006019C1 /* blackBack.png */,
+				EDF237071CF5941C006019C1 /* delete_remove_back_backspace-512 copy.png */,
+				EDF237051CF59414006019C1 /* About.png */,
+				EDCEF4FC1CF1DC0600DE6667 /* photo_sample_01.jpg */,
+				EDCEF4FE1CF1DC2800DE6667 /* photo_sample_02.jpg */,
+				EDCEF5001CF1DC4300DE6667 /* photo_sample_03.jpg */,
+				EDCEF5021CF1DC5400DE6667 /* photo_sample_04.jpg */,
+				EDCEF5041CF1DC7200DE6667 /* photo_sample_05.jpg */,
+				EDCEF5061CF1DC8800DE6667 /* photo_sample_06.jpg */,
+				EDCEF5081CF1DC9F00DE6667 /* photo_sample_07.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EDF237121CF5C9CD006019C1 /* PopOverCell */ = {
+			isa = PBXGroup;
+			children = (
+				EDF237221CF5E070006019C1 /* PopOverCell.h */,
+				EDF237231CF5E070006019C1 /* PopOverCell.m */,
+				EDF237241CF5E070006019C1 /* PopOverCell.xib */,
+			);
+			name = PopOverCell;
+			sourceTree = "<group>";
+		};
+		F4AC57F45BA9D45AEB447BF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D5602C0CB22198E869092FA /* Pods_Squashmag.framework */,
+				1B77C02CB1E92F3B1693DE31 /* Pods_SquashmagTests.framework */,
+				C0D530E0F7F16E3BED5CD4BE /* Pods_SquashmagUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDCEF4DA1CF1D4BB00DE6667 /* Build configuration list for PBXNativeTarget "Squashmag" */;
 			buildPhases = (
+				004670B3980ECFD3DBBF7F8F /* 📦 Check Pods Manifest.lock */,
 				EDCEF4A61CF1D4BB00DE6667 /* Sources */,
 				EDCEF4A71CF1D4BB00DE6667 /* Frameworks */,
 				EDCEF4A81CF1D4BB00DE6667 /* Resources */,
+				042114DA666B97F7BEAD2A3D /* 📦 Embed Pods Frameworks */,
+				20B75B969DD56DEEA60692D4 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDCEF4DD1CF1D4BB00DE6667 /* Build configuration list for PBXNativeTarget "SquashmagTests" */;
 			buildPhases = (
+				DA8D19F61742680F7B4315A9 /* 📦 Check Pods Manifest.lock */,
 				EDCEF4C21CF1D4BB00DE6667 /* Sources */,
 				EDCEF4C31CF1D4BB00DE6667 /* Frameworks */,
 				EDCEF4C41CF1D4BB00DE6667 /* Resources */,
+				3FC129696EF8064F09A7A569 /* 📦 Embed Pods Frameworks */,
+				6BA540E90BFFDBED69054736 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,9 +308,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDCEF4E01CF1D4BB00DE6667 /* Build configuration list for PBXNativeTarget "SquashmagUITests" */;
 			buildPhases = (
+				A229C105E2D0CFDA067B8665 /* 📦 Check Pods Manifest.lock */,
 				EDCEF4CD1CF1D4BB00DE6667 /* Sources */,
 				EDCEF4CE1CF1D4BB00DE6667 /* Frameworks */,
 				EDCEF4CF1CF1D4BB00DE6667 /* Resources */,
+				810EFC5A800207F2F072C07C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,9 +371,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF237061CF59414006019C1 /* About.png in Resources */,
+				EDF237261CF5E070006019C1 /* PopOverCell.xib in Resources */,
 				EDCEF4C01CF1D4BB00DE6667 /* LaunchScreen.storyboard in Resources */,
+				EDCEF4FD1CF1DC0600DE6667 /* photo_sample_01.jpg in Resources */,
+				EDCEF5091CF1DC9F00DE6667 /* photo_sample_07.jpg in Resources */,
+				EDCEF5071CF1DC8800DE6667 /* photo_sample_06.jpg in Resources */,
 				EDCEF4BD1CF1D4BB00DE6667 /* Assets.xcassets in Resources */,
+				EDCEF5011CF1DC4300DE6667 /* photo_sample_03.jpg in Resources */,
+				EDCEF4FF1CF1DC2800DE6667 /* photo_sample_02.jpg in Resources */,
+				EDF237081CF5941C006019C1 /* delete_remove_back_backspace-512 copy.png in Resources */,
 				EDCEF4B81CF1D4BB00DE6667 /* Main.storyboard in Resources */,
+				EDF2370A1CF59423006019C1 /* blackBack.png in Resources */,
+				EDCEF5031CF1DC5400DE6667 /* photo_sample_04.jpg in Resources */,
+				EDCEF5051CF1DC7200DE6667 /* photo_sample_05.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,15 +404,142 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		004670B3980ECFD3DBBF7F8F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		042114DA666B97F7BEAD2A3D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Squashmag/Pods-Squashmag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20B75B969DD56DEEA60692D4 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Squashmag/Pods-Squashmag-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FC129696EF8064F09A7A569 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SquashmagTests/Pods-SquashmagTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BA540E90BFFDBED69054736 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SquashmagTests/Pods-SquashmagTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		810EFC5A800207F2F072C07C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SquashmagUITests/Pods-SquashmagUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A229C105E2D0CFDA067B8665 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA8D19F61742680F7B4315A9 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EDCEF4A61CF1D4BB00DE6667 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDCEF4EB1CF1D52600DE6667 /* YSLDraggableCardContainer.m in Sources */,
+				EDCEF4EA1CF1D52600DE6667 /* YSLCardView.m in Sources */,
 				EDCEF4BB1CF1D4BB00DE6667 /* Squashmag.xcdatamodeld in Sources */,
+				EDF237251CF5E070006019C1 /* PopOverCell.m in Sources */,
 				EDCEF4B51CF1D4BB00DE6667 /* ViewController.m in Sources */,
 				EDCEF4B21CF1D4BB00DE6667 /* AppDelegate.m in Sources */,
 				EDCEF4AF1CF1D4BB00DE6667 /* main.m in Sources */,
+				EDCEF4EC1CF1D52600DE6667 /* CardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +678,7 @@
 		};
 		EDCEF4DB1CF1D4BB00DE6667 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43AA5A011E7B0F7BBC0A98A5 /* Pods-Squashmag.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Squashmag/Info.plist;
@@ -426,6 +690,7 @@
 		};
 		EDCEF4DC1CF1D4BB00DE6667 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 403066FC506AF51A45D4BDE4 /* Pods-Squashmag.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Squashmag/Info.plist;
@@ -437,6 +702,7 @@
 		};
 		EDCEF4DE1CF1D4BB00DE6667 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C647EF0A0B2B36360AED582 /* Pods-SquashmagTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SquashmagTests/Info.plist;
@@ -449,6 +715,7 @@
 		};
 		EDCEF4DF1CF1D4BB00DE6667 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF7A279D7D0F4938961FCCE1 /* Pods-SquashmagTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SquashmagTests/Info.plist;
@@ -461,6 +728,7 @@
 		};
 		EDCEF4E11CF1D4BB00DE6667 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E428B1D5F85D44CFD9E70A53 /* Pods-SquashmagUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SquashmagUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -472,6 +740,7 @@
 		};
 		EDCEF4E21CF1D4BB00DE6667 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19CB2E4E2797390F559CF1AD /* Pods-SquashmagUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SquashmagUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -500,6 +769,7 @@
 				EDCEF4DC1CF1D4BB00DE6667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDCEF4DD1CF1D4BB00DE6667 /* Build configuration list for PBXNativeTarget "SquashmagTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +778,7 @@
 				EDCEF4DF1CF1D4BB00DE6667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDCEF4E01CF1D4BB00DE6667 /* Build configuration list for PBXNativeTarget "SquashmagUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +787,7 @@
 				EDCEF4E21CF1D4BB00DE6667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

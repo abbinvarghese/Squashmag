@@ -1,0 +1,12 @@
+PODS:
+  - Popover (0.9.0)
+
+DEPENDENCIES:
+  - Popover
+
+SPEC CHECKSUMS:
+  Popover: e5a2cbfa29bb982c95cff0d7eb94f47173dbfbcc
+
+PODFILE CHECKSUM: 0d417760dac59cd0687f892b1df21a9821b453f0
+
+COCOAPODS: 1.0.0

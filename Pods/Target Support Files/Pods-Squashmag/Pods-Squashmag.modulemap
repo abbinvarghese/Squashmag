@@ -1,0 +1,6 @@
+framework module Pods_Squashmag {
+  umbrella header "Pods-Squashmag-umbrella.h"
+
+  export *
+  module * { export * }
+}

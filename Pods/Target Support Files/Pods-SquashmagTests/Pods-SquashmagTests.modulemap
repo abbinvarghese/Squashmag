@@ -1,0 +1,6 @@
+framework module Pods_SquashmagTests {
+  umbrella header "Pods-SquashmagTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
