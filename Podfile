@@ -9,6 +9,7 @@ target 'Squashmag' do
 
 pod "Popover"
 pod 'DZNWebViewController'
+pod "JTMaterialSwitch"
 
   target 'SquashmagTests' do
     inherit! :search_paths

@@ -29,7 +29,7 @@ public class Popover: UIView {
 
   // custom property
   private var arrowSize: CGSize = CGSize(width: 16.0, height: 10.0)
-  private var animationIn: NSTimeInterval = 0.6
+  private var animationIn: NSTimeInterval = 0.4
   private var animationOut: NSTimeInterval = 0.3
   private var cornerRadius: CGFloat = 6.0
   private var sideEdge: CGFloat = 20.0

@@ -26,13 +26,19 @@
     _containerView.layer.cornerRadius = 7;
     _containerView.layer.masksToBounds = YES;
     
-    _webView = [[WKWebView alloc]initWithFrame:CGRectMake(0, _progressView.frame.origin.y+2, self.view.frame.size.width, self.view.frame.size.height)];
+    _webView = [[WKWebView alloc]initWithFrame:CGRectMake(0, _progressView.frame.origin.y+2, self.view.frame.size.width, self.view.frame.size.height-_progressView.frame.origin.y-2)];
     [_webView addObserver:self forKeyPath:NSStringFromSelector(@selector(estimatedProgress)) options:NSKeyValueObservingOptionNew context:NULL];
 
-    [self.view addSubview:_webView];
-    NSString *url = @"http://mashable.com/";
-    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
+    [_containerView addSubview:_webView];
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:_url]];
     [_webView loadRequest:request];
+    
+    NSString *name = [NSURL URLWithString:_url].host;
+    NSString *stringWithoutSpaces = [name
+                                     stringByReplacingOccurrencesOfString:@".com" withString:@""];
+    NSString *stringWithoutSpaces2 = [stringWithoutSpaces
+                                     stringByReplacingOccurrencesOfString:@"www." withString:@""];
+    self.WebSiteName.text = [stringWithoutSpaces2 capitalizedString];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -12,6 +12,7 @@
 #import "Popover-swift.h"
 #import "PopOverCell.h"
 #import "DetailWebViewController.h"
+#import "SettingsViewController.h"
 
 typedef NS_ENUM(NSInteger, popOverIndex) {
     Share,
@@ -51,11 +52,21 @@ typedef NS_ENUM(NSInteger, popOverIndex) {
 {
     _datas = [NSMutableArray array];
     
-    for (int i = 0; i < 7; i++) {
-        NSDictionary *dict = @{@"image" : [NSString stringWithFormat:@"photo_sample_0%d.jpg",i + 1],
+    for (int i = 0; i < 500; i++) {
+        NSDictionary *dict = @{@"image" : [NSString stringWithFormat:@"photo_sample_0%ld.jpg",(long)[self rand]],
                                @"name" : @"YSLDraggableCardContainer Demo"};
         [_datas addObject:dict];
     }
+}
+
+-(NSInteger)rand{
+    NSString *min = @"1"; //Get the current text from your minimum and maximum textfields.
+    NSString *max = @"7";
+    
+    int randNum = rand() % ([max intValue] - [min intValue]) + [min intValue]; //create the random number.
+    
+    NSString *num = [NSString stringWithFormat:@"%d", randNum];
+    return [num integerValue];
 }
 
 
@@ -69,7 +80,6 @@ typedef NS_ENUM(NSInteger, popOverIndex) {
 {
     NSDictionary *dict = _datas[index];
     CardView *view = [[CardView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
-    view.backgroundColor = [UIColor whiteColor];
     view.image = [UIImage imageNamed:dict[@"image"]];
     view.title = @"Adele premieres trippy music video for 'Send My Love'";
     view.body = @"The reasoning here is pretty straightforward: Anyone with an amply charged phone can afford to wait and see if Uber's real-time demand-based pricing system might let up on the extra charge. But the prospect of being stranded with a dead phone makes time more of the essence. Uber knows when your phone battery is running low because its app collects that information in order to switch into power-saving mode. But Chen swears Uber would never use that The reasoning here is pretty straightforward: Anyone with an amply charged phone can afford to wait and see if Uber's real-time";
@@ -139,6 +149,7 @@ typedef NS_ENUM(NSInteger, popOverIndex) {
 - (void)cardContainerView:(YSLDraggableCardContainer *)cardContainerView didSelectAtIndex:(NSInteger)index draggableView:(UIView *)draggableView{
     
     DetailWebViewController *newView = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailWebViewController"];
+    newView.url = @"https://www.whatsapp.com/faq/en/iphone/23559013";
     [self.navigationController pushViewController:newView animated:YES];
 }
 
@@ -171,11 +182,11 @@ typedef NS_ENUM(NSInteger, popOverIndex) {
     switch (indexPath.row) {
         case Settings:
             cell.imageView.image = [UIImage imageNamed:@"Settings"];
-            cell.cellTitle.text = @"Settings";
+            cell.cellTitle.text = @"Go to Settings";
             break;
         case Share:
             cell.imageView.image = [UIImage imageNamed:@"Share"];
-            cell.cellTitle.text = @"Share";
+            cell.cellTitle.text = @"Share this article";
             break;
         case Refresh:
             cell.imageView.image = [UIImage imageNamed:@"Refresh"];
@@ -183,7 +194,7 @@ typedef NS_ENUM(NSInteger, popOverIndex) {
             break;
         case BookMark:
             cell.imageView.image = [UIImage imageNamed:@"Bookmark"];
-            cell.cellTitle.text = @"BookMark";
+            cell.cellTitle.text = @"Bookmark this article";
             break;
             
         default:
@@ -198,5 +209,31 @@ typedef NS_ENUM(NSInteger, popOverIndex) {
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [_popover dismiss];
+    switch (indexPath.row) {
+        case Share:{
+            
+        }
+            break;
+        case Settings:{
+            UINavigationController *newView = [self.storyboard instantiateViewControllerWithIdentifier:@"SettingsViewController"];
+            [self presentViewController:newView animated:YES completion:^{
+                
+            }];
+        }
+            break;
+        case BookMark:{
+            
+        }
+            break;
+        case Refresh:{
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 0.3 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+                [_container reloadCardContainer];
+            });
+        }
+            break;
+            
+        default:
+            break;
+    }
 }
 @end

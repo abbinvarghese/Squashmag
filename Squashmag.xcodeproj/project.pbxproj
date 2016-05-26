@@ -10,6 +10,10 @@
 		05FF982592D67646FE48DEB7 /* Pods_Squashmag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5602C0CB22198E869092FA /* Pods_Squashmag.framework */; };
 		67D2123BAAEE6365329C0D0E /* Pods_SquashmagUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D530E0F7F16E3BED5CD4BE /* Pods_SquashmagUITests.framework */; };
 		7AB9203F621064806FDD1347 /* Pods_SquashmagTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B77C02CB1E92F3B1693DE31 /* Pods_SquashmagTests.framework */; };
+		ED0724B91CF6D9A6003543E2 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0724B81CF6D9A6003543E2 /* SettingsViewController.m */; };
+		ED0724BD1CF6DFF0003543E2 /* SettingsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0724BB1CF6DFF0003543E2 /* SettingsTableViewCell.m */; };
+		ED0724BE1CF6DFF0003543E2 /* SettingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED0724BC1CF6DFF0003543E2 /* SettingsTableViewCell.xib */; };
+		ED0724C21CF73471003543E2 /* SquashHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0724C11CF73471003543E2 /* SquashHelp.m */; };
 		ED2268D21CF61608007969DD /* DetailWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2268D11CF61608007969DD /* DetailWebViewController.m */; };
 		EDCEF4AF1CF1D4BB00DE6667 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCEF4AE1CF1D4BB00DE6667 /* main.m */; };
 		EDCEF4B21CF1D4BB00DE6667 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCEF4B11CF1D4BB00DE6667 /* AppDelegate.m */; };
@@ -64,6 +68,14 @@
 		BF7A279D7D0F4938961FCCE1 /* Pods-SquashmagTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquashmagTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquashmagTests/Pods-SquashmagTests.release.xcconfig"; sourceTree = "<group>"; };
 		C0D530E0F7F16E3BED5CD4BE /* Pods_SquashmagUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquashmagUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E428B1D5F85D44CFD9E70A53 /* Pods-SquashmagUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquashmagUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SquashmagUITests/Pods-SquashmagUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED0724B71CF6D9A6003543E2 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		ED0724B81CF6D9A6003543E2 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		ED0724BA1CF6DFF0003543E2 /* SettingsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewCell.h; sourceTree = "<group>"; };
+		ED0724BB1CF6DFF0003543E2 /* SettingsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewCell.m; sourceTree = "<group>"; };
+		ED0724BC1CF6DFF0003543E2 /* SettingsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsTableViewCell.xib; sourceTree = "<group>"; };
+		ED0724C01CF73471003543E2 /* SquashHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquashHelp.h; sourceTree = "<group>"; };
+		ED0724C11CF73471003543E2 /* SquashHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquashHelp.m; sourceTree = "<group>"; };
+		ED0724C31CF736C2003543E2 /* SquashMag-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SquashMag-Prefix.pch"; sourceTree = "<group>"; };
 		ED2268D01CF61608007969DD /* DetailWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailWebViewController.h; sourceTree = "<group>"; };
 		ED2268D11CF61608007969DD /* DetailWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailWebViewController.m; sourceTree = "<group>"; };
 		EDCEF4AA1CF1D4BB00DE6667 /* Squashmag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squashmag.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +157,27 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		ED0724B61CF6D96B003543E2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				ED0724B71CF6D9A6003543E2 /* SettingsViewController.h */,
+				ED0724B81CF6D9A6003543E2 /* SettingsViewController.m */,
+				ED0724BA1CF6DFF0003543E2 /* SettingsTableViewCell.h */,
+				ED0724BB1CF6DFF0003543E2 /* SettingsTableViewCell.m */,
+				ED0724BC1CF6DFF0003543E2 /* SettingsTableViewCell.xib */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		ED0724BF1CF733C8003543E2 /* Modal Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ED0724C01CF73471003543E2 /* SquashHelp.h */,
+				ED0724C11CF73471003543E2 /* SquashHelp.m */,
+			);
+			name = "Modal Classes";
+			sourceTree = "<group>";
+		};
 		ED2268D31CF6160B007969DD /* Detailed WebView */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +212,8 @@
 		EDCEF4AC1CF1D4BB00DE6667 /* Squashmag */ = {
 			isa = PBXGroup;
 			children = (
+				ED0724BF1CF733C8003543E2 /* Modal Classes */,
+				ED0724B61CF6D96B003543E2 /* Settings */,
 				ED2268D31CF6160B007969DD /* Detailed WebView */,
 				EDF237121CF5C9CD006019C1 /* PopOverCell */,
 				EDCEF4E31CF1D51B00DE6667 /* Card View */,
@@ -201,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				EDCEF4AE1CF1D4BB00DE6667 /* main.m */,
+				ED0724C31CF736C2003543E2 /* SquashMag-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -387,6 +423,7 @@
 				EDF237061CF59414006019C1 /* About.png in Resources */,
 				EDF237261CF5E070006019C1 /* PopOverCell.xib in Resources */,
 				EDCEF4C01CF1D4BB00DE6667 /* LaunchScreen.storyboard in Resources */,
+				ED0724BE1CF6DFF0003543E2 /* SettingsTableViewCell.xib in Resources */,
 				EDCEF4FD1CF1DC0600DE6667 /* photo_sample_01.jpg in Resources */,
 				EDCEF5091CF1DC9F00DE6667 /* photo_sample_07.jpg in Resources */,
 				EDCEF5071CF1DC8800DE6667 /* photo_sample_06.jpg in Resources */,
@@ -546,12 +583,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDCEF4EB1CF1D52600DE6667 /* YSLDraggableCardContainer.m in Sources */,
+				ED0724C21CF73471003543E2 /* SquashHelp.m in Sources */,
+				ED0724BD1CF6DFF0003543E2 /* SettingsTableViewCell.m in Sources */,
 				ED2268D21CF61608007969DD /* DetailWebViewController.m in Sources */,
 				EDCEF4EA1CF1D52600DE6667 /* YSLCardView.m in Sources */,
 				EDCEF4BB1CF1D4BB00DE6667 /* Squashmag.xcdatamodeld in Sources */,
 				EDF237251CF5E070006019C1 /* PopOverCell.m in Sources */,
 				EDCEF4B51CF1D4BB00DE6667 /* ViewController.m in Sources */,
 				EDCEF4B21CF1D4BB00DE6667 /* AppDelegate.m in Sources */,
+				ED0724B91CF6D9A6003543E2 /* SettingsViewController.m in Sources */,
 				EDCEF4AF1CF1D4BB00DE6667 /* main.m in Sources */,
 				EDCEF4EC1CF1D52600DE6667 /* CardView.m in Sources */,
 			);
@@ -695,6 +735,8 @@
 			baseConfigurationReference = 43AA5A011E7B0F7BBC0A98A5 /* Pods-Squashmag.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Squashmag/Squashmag-Prefix.pch";
 				INFOPLIST_FILE = Squashmag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ThePaadamCompany.Squashmag;
@@ -707,6 +749,8 @@
 			baseConfigurationReference = 403066FC506AF51A45D4BDE4 /* Pods-Squashmag.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Squashmag/Squashmag-Prefix.pch";
 				INFOPLIST_FILE = Squashmag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ThePaadamCompany.Squashmag;

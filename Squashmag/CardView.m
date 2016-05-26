@@ -41,10 +41,20 @@
     return self;
 }
 
+- (void) dealloc{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
 - (void)setup
 {
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(receiveNightModeNotification:)
+                                                 name:NightModeKey
+                                               object:nil];
+    
+    self.backgroundColor = [SquashHelp colourFor:self];
+    
     _imageView = [[UIImageView alloc]init];
-    _imageView.backgroundColor = [UIColor orangeColor];
     _imageView.contentMode = UIViewContentModeScaleAspectFill;
     _imageView.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height * 0.35);
     [self addSubview:_imageView];
@@ -66,6 +76,7 @@
     [_imageView addSubview:_selectedView];
     
     _label = [[UILabel alloc]init];
+    _label.textColor = [SquashHelp colourFor:_label];
     _label.numberOfLines = 0;
     _label.backgroundColor = [UIColor clearColor];
     _label.frame = CGRectMake(15,
@@ -77,6 +88,7 @@
     [self addSubview:_label];
     
     _label2 = [[UILabel alloc]init];
+    _label2.textColor = [SquashHelp colourFor:_label];
     _label2.numberOfLines = 0;
     _label2.backgroundColor = [UIColor clearColor];
     _label2.frame = CGRectMake(15,
@@ -107,6 +119,15 @@
 
 -(void)setImage:(UIImage *)image{
     self.imageView.image = image;
+}
+
+- (void) receiveNightModeNotification:(NSNotification *) notification{
+    
+    if ([[notification name] isEqualToString:NightModeKey]){
+        _label2.textColor = [SquashHelp colourFor:_label];
+        _label.textColor = [SquashHelp colourFor:_label];
+        self.backgroundColor = [SquashHelp colourFor:self];
+    }
 }
 
 @end

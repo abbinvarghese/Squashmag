@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>JTMaterialSwitch-JTMaterialSwitch.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JTMaterialSwitch.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Squashmag.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,7 +47,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>47E037910D6045762BCF017E32A99E84</key>
+		<key>35B617F8B0851DCDF666A4909092E791</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,12 +57,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B93553389E3B98525F28730CF14F2D25</key>
+		<key>88B7C8732F7087A3024612906C9F88DC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>BA8A53096DFD0AADBF5ECD9A55DD0595</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C2550C2DDD8A3B6A86481A5A031BFE6F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ECC83462E501ABBFC4292E4DB4430718</key>
 		<dict>
 			<key>primary</key>
 			<true/>

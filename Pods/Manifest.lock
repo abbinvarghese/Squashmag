@@ -1,15 +1,18 @@
 PODS:
   - DZNWebViewController (3.2)
+  - JTMaterialSwitch (1.1)
   - Popover (0.9.0)
 
 DEPENDENCIES:
   - DZNWebViewController
+  - JTMaterialSwitch
   - Popover
 
 SPEC CHECKSUMS:
   DZNWebViewController: 8e927a5de637fe0c4104c001d5cccd4fa5621e50
+  JTMaterialSwitch: cad8093c3773ff9f6c60005c98d269eb869b5e04
   Popover: e5a2cbfa29bb982c95cff0d7eb94f47173dbfbcc
 
-PODFILE CHECKSUM: e4cd05ae4cc9a4f2a437c54d9b2f88ba5506f556
+PODFILE CHECKSUM: 91e253e2c2b2e7abe3b6179ab3d79530c6578331
 
 COCOAPODS: 1.0.0
