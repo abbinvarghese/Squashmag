@@ -480,8 +480,9 @@ typedef NS_ENUM(NSInteger, MoveSlope) {
     if (!_currentViews || _currentViews.count == 0) {
         return;
     }
-    if (self.delegate && [self.delegate respondsToSelector:@selector(cardContainerView:didSelectAtIndex:draggableView:)]) {
-        [self.delegate cardContainerView:self didSelectAtIndex:_currentIndex draggableView:gesture.view];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(cardContainerView:didSelectAtIndex:draggableView:touchPoint:)]) {
+        CGPoint point = [gesture locationInView:gesture.view];
+        [self.delegate cardContainerView:self didSelectAtIndex:_currentIndex draggableView:gesture.view touchPoint:point];
     }
 }
 

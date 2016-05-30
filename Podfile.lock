@@ -1,18 +1,32 @@
 PODS:
+  - BIZCircularTransition (1.0.1)
+  - Bolts/Tasks (1.7.0)
   - DZNWebViewController (3.2)
   - JTMaterialSwitch (1.1)
+  - Parse (1.13.0):
+    - Bolts/Tasks (~> 1.6)
+  - ParseUI (1.2.0):
+    - Bolts/Tasks (~> 1.3)
+    - Parse (~> 1.9)
   - Popover (0.9.0)
 
 DEPENDENCIES:
+  - BIZCircularTransition
   - DZNWebViewController
   - JTMaterialSwitch
+  - Parse
+  - ParseUI
   - Popover
 
 SPEC CHECKSUMS:
+  BIZCircularTransition: 00290c91ac244bf7e73e118a9d6ca7975b93c61d
+  Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
   DZNWebViewController: 8e927a5de637fe0c4104c001d5cccd4fa5621e50
   JTMaterialSwitch: cad8093c3773ff9f6c60005c98d269eb869b5e04
+  Parse: f51c24d2feb412e4b2d6cc73d37cb24e8d0089bc
+  ParseUI: af2eba584799da4a9fbdac0e178662d7438b502e
   Popover: e5a2cbfa29bb982c95cff0d7eb94f47173dbfbcc
 
-PODFILE CHECKSUM: 91e253e2c2b2e7abe3b6179ab3d79530c6578331
+PODFILE CHECKSUM: 58fa41036284d7fe4e32aad1a55fbee8ad695cf9
 
 COCOAPODS: 1.0.0

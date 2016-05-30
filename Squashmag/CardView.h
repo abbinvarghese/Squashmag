@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "YSLCardView.h"
+#import <ParseUI/ParseUI.h>
+#import <Parse/Parse.h>
 
 @interface CardView : YSLCardView
 
-@property (nonatomic, strong) UIImage *image;
+@property (nonatomic, strong) PFImageView *imageView;
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) NSString *body;
 @property (nonatomic, strong) UIView *selectedView;

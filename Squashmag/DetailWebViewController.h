@@ -11,5 +11,5 @@
 @interface DetailWebViewController : UIViewController
 
 @property(nonatomic,strong) NSString *url;
-
+@property(nonatomic,strong) NSString *webSite;
 @end

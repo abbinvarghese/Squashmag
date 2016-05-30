@@ -33,19 +33,14 @@
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:_url]];
     [_webView loadRequest:request];
     
-    NSString *name = [NSURL URLWithString:_url].host;
-    NSString *stringWithoutSpaces = [name
-                                     stringByReplacingOccurrencesOfString:@".com" withString:@""];
-    NSString *stringWithoutSpaces2 = [stringWithoutSpaces
-                                     stringByReplacingOccurrencesOfString:@"www." withString:@""];
-    self.WebSiteName.text = [stringWithoutSpaces2 capitalizedString];
+    self.WebSiteName.text = _webSite;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
 - (IBAction)backClicked:(UIButton *)sender {
-    [self.navigationController popViewControllerAnimated:YES];
+    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {

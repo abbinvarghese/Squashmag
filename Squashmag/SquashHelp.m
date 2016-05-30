@@ -21,7 +21,7 @@
     }
     else{
         if ([object isKindOfClass:[UILabel class]]) {
-            return [UIColor darkTextColor];
+            return [UIColor colorWithWhite:0.3 alpha:1];
         }
         else{
             return [UIColor colorWithWhite:1 alpha:1];

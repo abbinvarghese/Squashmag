@@ -8,6 +8,7 @@
 
 #import "SettingsViewController.h"
 #import "SettingsTableViewCell.h"
+#import "ChannelsViewController.h"
 
 typedef NS_ENUM(NSInteger, AboutIndex) {
     AppStoreRating,
@@ -24,7 +25,7 @@ typedef NS_ENUM(NSInteger, InterestsIndex) {
 };
 
 typedef NS_ENUM(NSInteger, SectionIndex) {
-    InterestsSection,
+    ChannelsSection,
     NightModeSection,
     AboutSection
 };
@@ -52,7 +53,7 @@ typedef NS_ENUM(NSInteger, SectionIndex) {
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    if (section == InterestsSection || section == NightModeSection) {
+    if (section == ChannelsSection || section == NightModeSection) {
         return 1;
     }
     else{
@@ -62,9 +63,9 @@ typedef NS_ENUM(NSInteger, SectionIndex) {
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     SettingsTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SettingsTableViewCell"];
-    if (indexPath.section == InterestsSection) {
-        cell.cellTitle.text = @"Interest";
-        cell.imageView.image = [UIImage imageNamed:@"Interest"];
+    if (indexPath.section == ChannelsSection) {
+        cell.cellTitle.text = @"Channels";
+        cell.imageView.image = [UIImage imageNamed:@"Channel"];
         cell.selectionStyle = UITableViewCellSelectionStyleDefault;
     }
     else if (indexPath.section == NightModeSection){
@@ -96,6 +97,16 @@ typedef NS_ENUM(NSInteger, SectionIndex) {
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 50;
 }
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.section == ChannelsSection) {
+        ChannelsViewController *newView = [self.storyboard instantiateViewControllerWithIdentifier:@"ChannelsViewController"];
+        newView.title = @"Add Channels";
+        [self.navigationController pushViewController:newView animated:YES];
+        [_settingsTableView deselectRowAtIndexPath:indexPath animated:YES];
+    }
+}
+
 - (IBAction)dismissViewController:(UIBarButtonItem *)sender {
     [self dismissViewControllerAnimated:YES completion:^{
         

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ChannelsCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="187"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="187"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Mt-ju-yJT" customClass="PFImageView">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="1Mt-ju-yJT" secondAttribute="height" multiplier="1:1" id="OgJ-0k-Qt7"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Entertainment" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HXL-ir-kuc">
+                        <rect key="frame" x="0.0" y="150" width="150" height="37"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CheckRed" translatesAutoresizingMaskIntoConstraints="NO" id="290-pN-M5t">
+                        <rect key="frame" x="108" y="5" width="37" height="37"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="290-pN-M5t" secondAttribute="height" multiplier="1:1" id="jw9-2H-Ki3"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="1Mt-ju-yJT" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="L1p-qk-O6B"/>
+                <constraint firstItem="HXL-ir-kuc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="RHf-4p-cwx"/>
+                <constraint firstAttribute="bottom" secondItem="HXL-ir-kuc" secondAttribute="bottom" id="Tcw-op-yJX"/>
+                <constraint firstItem="HXL-ir-kuc" firstAttribute="top" secondItem="1Mt-ju-yJT" secondAttribute="bottom" id="XIi-J7-LiC"/>
+                <constraint firstAttribute="trailing" secondItem="HXL-ir-kuc" secondAttribute="trailing" id="YbD-qA-LCl"/>
+                <constraint firstAttribute="trailing" secondItem="1Mt-ju-yJT" secondAttribute="trailing" id="ZwZ-W0-zHq"/>
+                <constraint firstAttribute="trailing" secondItem="290-pN-M5t" secondAttribute="trailing" constant="5" id="ebb-sw-Xnz"/>
+                <constraint firstItem="290-pN-M5t" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="gMM-Vm-kjx"/>
+                <constraint firstItem="1Mt-ju-yJT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="kL2-JM-CEF"/>
+                <constraint firstItem="290-pN-M5t" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.25" id="koB-8P-ana"/>
+            </constraints>
+            <size key="customSize" width="150" height="187"/>
+            <connections>
+                <outlet property="celImageView" destination="1Mt-ju-yJT" id="e0Y-Af-9hy"/>
+                <outlet property="cellCatagoryName" destination="HXL-ir-kuc" id="UX8-Hc-aQV"/>
+                <outlet property="checkView" destination="290-pN-M5t" id="rsi-44-Q8p"/>
+            </connections>
+            <point key="canvasLocation" x="469" y="460.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="CheckRed" width="75" height="75"/>
+    </resources>
+</document>

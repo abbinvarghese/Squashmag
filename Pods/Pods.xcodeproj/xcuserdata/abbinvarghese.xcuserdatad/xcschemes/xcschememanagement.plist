@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BIZCircularTransition.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>DZNWebViewController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -15,6 +25,16 @@
 			<false/>
 		</dict>
 		<key>JTMaterialSwitch.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Parse.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ParseUI.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -42,6 +62,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>2C8AA1BAF35413BDB954A1DF93576ED1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>33E8740AA18458EDCFA48D67193195F9</key>
 		<dict>
 			<key>primary</key>
@@ -57,7 +82,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>88B7C8732F7087A3024612906C9F88DC</key>
+		<key>7458024B76E5E86173FB99114F77069B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7D0B9F0F94044FDA26537C4DCABD65A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8C401264598A4BABFA0874CBFA7375EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B272B33F162D6E5C3510BA50ECF2684B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,7 +112,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>ECC83462E501ABBFC4292E4DB4430718</key>
+		<key>E1F78B1C5F8F2CCD0E68552EAF2B9B52</key>
 		<dict>
 			<key>primary</key>
 			<true/>
