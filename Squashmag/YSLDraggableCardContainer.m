@@ -313,19 +313,19 @@ typedef NS_ENUM(NSInteger, MoveSlope) {
     if (!view) { return; }
     __weak YSLDraggableCardContainer *weakself = self;
     view.alpha = 1.0;
-    view.transform = CGAffineTransformScale(CGAffineTransformIdentity,0.5f,0.5f);
+    view.transform = CGAffineTransformScale(CGAffineTransformIdentity,0.95f,0.95f);
     [UIView animateWithDuration:0.1
                           delay:0.0
                         options:UIViewAnimationOptionCurveEaseInOut
                      animations:^{
-                         view.transform = CGAffineTransformScale(CGAffineTransformIdentity,1.05f,1.05f);
+                         view.transform = CGAffineTransformScale(CGAffineTransformIdentity,1.0f,1.0f);
                      }
                      completion:^(BOOL finished){
                          [UIView animateWithDuration:0.1
                                                delay:0.0
                                              options:UIViewAnimationOptionCurveEaseOut
                                           animations:^{
-                                              view.transform = CGAffineTransformScale(CGAffineTransformIdentity,0.95f,0.95f);
+                                              view.transform = CGAffineTransformScale(CGAffineTransformIdentity,0.98f,0.98f);
                                           }
                                           completion:^(BOOL finished) {
                                               [UIView animateWithDuration:0.1
