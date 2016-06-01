@@ -31,6 +31,7 @@ typedef NS_ENUM(NSInteger, popOverIndex) {
 @property (weak, nonatomic) IBOutlet UIButton *option;
 @property (nonatomic, strong) BIZCircularTransitionHandler *circularTransitionHandler;
 @property (nonatomic, strong) PFQuery *query;
+
 @end
 
 @implementation ViewController
